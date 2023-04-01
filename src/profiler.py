@@ -14,8 +14,8 @@ def get_profile_icon() -> str:
 def create_profile():
     total_memory = round(psutil.virtual_memory().total / (1024 ** 3), 2)
 
-    profile_name = "[1.12.2] El Spider Juan Server"
-    version_id = "1.12.2-forge-14.23.5.2855"
+    profile_name = "[1.19.3] El Spider Juan Server"
+    version_id = "fabric-loader-0.14.19-1.19.3"
     game_args = ""
     launcher_profiles_path = os.path.join(os.environ['APPDATA'], '.minecraft', 'launcher_profiles.json')
 

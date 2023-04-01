@@ -4,7 +4,7 @@ import socket
 import ssl
 import time
 import profiler
-import forge
+import fabric
 import colorama
 import getpass
 import shutil
@@ -24,7 +24,7 @@ print(r"       | |_| |  __/| |_| / ___ \| | | |___|  _ <                  ")
 print(r"        \___/|_|   |____/_/   \_\_| |_____|_| \_\                 ")
 print(r"                                                                  ")
 print(r"                        @Divengerss                               ")
-print(r"               [https://github.com/Divengerss]               v1.0 ")
+print(r"               [https://github.com/Divengerss]               v1.1 ")
 print(r"==================================================================")
 
 colorama.init()
@@ -208,7 +208,7 @@ def download_files(ftp_path, local_path, ftp, cwd=None):
 download_files('/', local_dir, ftp)
 delete_files()
 print(Fore.GREEN + "Complete!" + Style.RESET_ALL)
-forge.get_forge()
+fabric.get_fabric()
 profiler.create_profile()
 print("%i files updated" % update["upt"])
 print("%i files removed" % update["rem"])
